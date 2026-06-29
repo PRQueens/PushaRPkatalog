@@ -1,0 +1,11 @@
+body{margin:0;font-family:system-ui;background:#070A12;color:#EAF0FF}
+.topbar{display:flex;gap:10px;align-items:center;padding:14px;background:#0f1422;position:sticky;top:0}
+.brand{color:#00E5FF;font-weight:800}
+.topbar input{flex:1;padding:10px;border-radius:10px;border:1px solid #1c2333;background:#0b1020;color:white}
+.content{padding:30px}
+.card{background:rgba(255,255,255,0.04);padding:18px;border-radius:16px;margin-bottom:20px;border:1px solid rgba(255,255,255,0.08)}
+.card:hover{transform:translateY(-2px);transition:.2s}
+table{width:100%;border-collapse:collapse;background:rgba(255,255,255,0.04);border-radius:12px;overflow:hidden}
+td{padding:10px;border-top:1px solid rgba(255,255,255,0.08)}
+.menu-btn{display:none}
+#mobileMenu{display:none}
