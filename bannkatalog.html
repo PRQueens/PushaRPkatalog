@@ -53,10 +53,18 @@ td {
   padding: 10px;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  color: #24292f; /* stabile Textfarbe */
 }
 
+/* Hover Effekt wie GitHub */
 tr:hover {
-  background: #f6f8fa; /* GitHub light hover */
+  background: #f6f8fa;
+  color: #24292f; /* verhindert weißen Text */
+}
+
+/* extra Sicherheit für Dark Mode / Themes */
+tr:hover td {
+  color: #24292f;
 }
 </style>
 
